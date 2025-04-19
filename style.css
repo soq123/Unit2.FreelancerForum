@@ -1,0 +1,25 @@
+body {
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 50%;
+}
+
+header {
+    font-weight: bold;
+}
+
+header, .row {
+    display: flex;
+}
+
+  header > *, .row > * {
+    flex: 1;
+}
+
+
